@@ -1,0 +1,93 @@
+!DOCTYPE html>
+<html lang = en>
+ <head>
+     <title>
+         HTML FORM BASIC EXERCISE | GITHUB
+     </title>
+ </head>
+ <style>
+  body{
+    background-color: #edf6f9;
+    color: black;
+    text-align: center;
+  }
+  text{ border-radius: 100px;
+
+  }
+
+
+
+
+
+
+ </style>
+ <body>
+   <div class="regi">
+     <div class="regi-title">
+       <h1>Registration Form</h1>
+     </div>
+       <div class="regi-form">
+        <form>
+          <br><br>
+        <div class="Regi-1st-info">  <label >First Name:</label>
+          <input type ="text" id="fname" name="fname">
+          <label>Middle Name:</label>
+          <input type ="text" id="mname" name="mname">
+          <label >Last Name:</label>
+          <input type ="text" id="fname" name="fname"></div>
+         <br><br>
+         <div class="Regi-2nd-info">   
+           <div class="regi-2nd-title">
+            <h4>Please Specify your Gender</h4>
+           </div>
+           <input type="radio" id="Gender" name="Gender" value="Gender">
+                    <label >Male</label>
+                     <input type="radio" id="Gender" name="Gender" value="Gender">
+                   <label >Female</label> 
+          </div>
+              <br><br>
+        <div class="Regi-3rd-info">   <label>Email</label>
+          <input type="email" id="email" name ="email">
+          <label for="ADDRESS">HOME ADDRESS:</label>
+        <textarea id="ADDRESS" name="ADDRESS" rows="1" cols="50">
+        </textarea>   </div>
+        <div class="Regi-3rd-info"> <div class="Regi-title">
+          <h4>Hobbies:</h4>
+        </div>  <input type="radio" id="Computer" name="Computer" value="Computer">
+                 <label >Computer games</label>
+              <input type="radio" id="Playing" name="Playing" value="Playing">
+                <label>Playing music instruments</label><br><br>
+             
+                    <input type="radio" id="Cooking" name="Cooking" value="Cooking">
+                             <label >Cooking</label>
+                          <input type="radio" id="Drawing" name="Drawing" value="Drawing">
+                            <label >Drawing</label></div>
+     <br><br>
+     <div class="Regi-4th-info"> <label>Choose your favorite color:</label>
+  
+      <select name="cars" id="cars">
+        <option value="red">red</option>
+        <option value="blue">blue</option>
+        <option value="white">white</option>
+        <option value="black">black</option>
+        <option value="green">green</option>
+        <option value="violet">violet</option>
+      </select> </div>
+                <br><br>
+    <div class="Regi-5th-info">
+        
+                <label>Say something about yourself:</label>
+                <textarea id="yourself" name="yourself" rows="9" cols="50">
+                </textarea> <br><br>
+            <label>Submit Button</label>
+                <input type="button" id="buton" name="button">
+                <label>Clear Button</label>
+                <input type="button" id="buton" name="button">
+      </div>
+        </form>
+       </div>
+   </div>
+
+ </body>
+
+    </html>
